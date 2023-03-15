@@ -1,0 +1,29 @@
+@import "../../Sass/mixin";
+@import "../../Sass/variables";
+
+.box-container-r1 {
+  width: 100%;
+  height: 28vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+    // background-color: lightblue;
+}
+.box-container-r2 {
+  width: 100%;
+  height: 28vh;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0rem;
+    // background-color: greenyellow;
+}
+
+.box {
+  width: 200px;
+  height: 150px;
+  background: #c4c4c4;
+  border-radius: 20px;
+}
